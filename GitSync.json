@@ -4,10 +4,14 @@
         "Integration": {},
         "Mappings": {},
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "playbook with block and widget": "This is the addon"
+        },
         "Connector": {},
         "Job": {},
-        "Block": {}
+        "Block": {
+            "New Block": "This is the addon"
+        }
     },
     "settings": {
         "update_root_readme": true
