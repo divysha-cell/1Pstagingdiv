@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "source": "AbnormalSecurity",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "AbnormalSecurity",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "source": "CBCloud",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "VMware Carbon Black Cloud",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CBCloud",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "VMware Carbon Black Cloud",
+        "eventName": "crossproc",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CBCloud",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "VMware Carbon Black Cloud",
+        "eventName": "childproc",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CBCloud",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "VMware Carbon Black Cloud",
+        "eventName": "netconn",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CBCloud",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "VMware Carbon Black Cloud",
+        "eventName": "filemod",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    }
+]

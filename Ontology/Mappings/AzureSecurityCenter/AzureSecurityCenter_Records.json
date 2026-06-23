@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "host",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "account",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "file",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "process",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "malware",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "ip",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "AzureSecurityCenter",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Azure Security Center",
+        "eventName": "alerts",
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    }
+]

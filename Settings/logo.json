@@ -1,0 +1,138 @@
+{
+    "items": [
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInSystemEmails",
+            "displayName": "UseInSystemEmails",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInReports",
+            "displayName": "UseInReports",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInLoginScreen",
+            "displayName": "UseInLoginScreen",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInHeader",
+            "displayName": "UseInHeader",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/HasManuallyChanged",
+            "displayName": "HasManuallyChanged",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
+            "displayName": "FaviconBase64",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
+            "displayName": "CompanyLogo",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/ChangeFavicon",
+            "displayName": "ChangeFavicon",
+            "type": 0
+        }
+    ],
+    "totalSize": 8,
+    "properties": [
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInSystemEmails",
+            "displayName": "UseInSystemEmails",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInReports",
+            "displayName": "UseInReports",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInLoginScreen",
+            "displayName": "UseInLoginScreen",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInHeader",
+            "displayName": "UseInHeader",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/HasManuallyChanged",
+            "displayName": "HasManuallyChanged",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
+            "displayName": "FaviconBase64",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
+            "displayName": "CompanyLogo",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/ChangeFavicon",
+            "displayName": "ChangeFavicon",
+            "type": 0
+        }
+    ],
+    "moduleSettingsProperties": [
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInSystemEmails",
+            "displayName": "UseInSystemEmails",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInReports",
+            "displayName": "UseInReports",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInLoginScreen",
+            "displayName": "UseInLoginScreen",
+            "type": 0
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/UseInHeader",
+            "displayName": "UseInHeader",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/HasManuallyChanged",
+            "displayName": "HasManuallyChanged",
+            "type": 0,
+            "value": "False"
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
+            "displayName": "FaviconBase64",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
+            "displayName": "CompanyLogo",
+            "type": 2
+        },
+        {
+            "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/ChangeFavicon",
+            "displayName": "ChangeFavicon",
+            "type": 0
+        }
+    ]
+}

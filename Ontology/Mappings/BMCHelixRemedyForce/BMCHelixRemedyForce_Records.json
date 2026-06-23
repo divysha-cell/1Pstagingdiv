@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "source": "BMCHelixRemedyForce",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "BMC Helix Remedyforce",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "source": "Attivo",
+        "familyName": "Default",
+        "familyId": 0,
+        "product": "Attivo",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    }
+]
