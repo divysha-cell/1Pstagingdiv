@@ -1,0 +1,42 @@
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/slaDefinitions/6",
+        "id": 6,
+        "slaType": "AlertPriority",
+        "slaTypeValue": "[\"Low\"]",
+        "slaPeriod": 7.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 5.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/slaDefinitions/2",
+        "id": 2,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Triage\",\"Assessment\",\"Investigation\",\"Incident\",\"Improvement\",\"Research\"]",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/slaDefinitions/1",
+        "id": 1,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
+        ]
+    }
+]
