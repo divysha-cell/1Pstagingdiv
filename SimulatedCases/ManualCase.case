@@ -1,0 +1,64 @@
+{
+    "cases": [
+        {
+            "creatorUserId": null,
+            "events": [
+                {
+                    "_fields": {
+                        "baseEventIds": [],
+                        "parentEventId": 0,
+                        "deviceEventClassId": "ManualCase",
+                        "startTime": "1782743134151",
+                        "endTime": "1782743134151",
+                        "deviceProduct": "ManualCase"
+                    },
+                    "_rawDataFields": {
+                        "manualCase": "ManualCase",
+                        "deviceEventClassId": "ManualCase",
+                        "deviceProduct": "ManualCase",
+                        "name": "ManualCase"
+                    },
+                    "environment": null,
+                    "sourceSystemName": null,
+                    "extensions": []
+                }
+            ],
+            "environment": null,
+            "sourceSystemName": "ManualCase",
+            "ticketId": null,
+            "description": null,
+            "displayId": null,
+            "reason": null,
+            "name": "ManualCase",
+            "deviceVendor": "ManualCase",
+            "deviceProduct": "ManualCase",
+            "startTime": 1782743134151,
+            "endTime": 1782743134151,
+            "type": 0,
+            "priority": -1,
+            "ruleGenerator": "ManualCase",
+            "sourceGroupingIdentifier": null,
+            "playbookTriggerKeywords": [],
+            "extensions": [
+                {
+                    "key": "ManualCase",
+                    "value": "ManualCase"
+                }
+            ],
+            "attachments": null,
+            "isTrimmed": false,
+            "dataType": 1,
+            "sourceType": 1,
+            "sourceSystemUrl": null,
+            "sourceRuleIdentifier": null,
+            "siemAlertId": null,
+            "updatedFields": [],
+            "alertUpdateSupported": false,
+            "alertMetadata": {},
+            "dataAccessScope": null
+        }
+    ],
+    "type": 0,
+    "connectorIdentifier": null,
+    "debugOutput": null
+}

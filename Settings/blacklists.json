@@ -1,5 +1,21 @@
 [
     {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/8",
+        "id": 8,
+        "entityIdentifier": "M2Blocklist",
+        "entityType": "APPLICATION",
+        "action": "DoNotCreateEntity",
+        "environmentsJson": "[\"Default Environment\"]"
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/7",
+        "id": 7,
+        "entityIdentifier": "M1Blocklist",
+        "entityType": "*",
+        "action": "DoNotGroupAlerts",
+        "environmentsJson": "[\"test001\"]"
+    },
+    {
         "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/6",
         "id": 6,
         "entityIdentifier": "Blocklist_01",
