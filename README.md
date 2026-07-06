@@ -1,5 +1,14 @@
 # GitSync
 
+## Integrations
+|Name|Description|
+|----|-----------|
+|AbuseIPDB|Leverage the AbuseIPDB threat intelligence API with this integration.|
+|Anomali ThreatStream|Threat Intelligence Management that automates the collection and processing of raw data, filters out the noise and transforms it into relevant, actionable threat intelligence for security teams.|
+|CSV|Integration designed around working with CSV files. CSV is a simple file format used to store tabular data, such as a spreadsheet or database.|
+|MISP|MISP is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threat about cyber security incidents|
+
+
 ## Playbooks
 |Name|Description|
 |----|-----------|
