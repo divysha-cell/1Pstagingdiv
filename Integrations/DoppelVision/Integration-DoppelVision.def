@@ -1,0 +1,50 @@
+{
+    "Name": null,
+    "UpdateAvailable": null,
+    "LatestVersion": null,
+    "Id": 0,
+    "Identifier": "DoppelVision",
+    "Custom": false,
+    "Parameters": [
+        {
+            "Id": 0,
+            "Mandatory": true,
+            "DefaultValue": null,
+            "Description": "API key required to authenticate Doppel APIs",
+            "DisplayName": "API Key",
+            "PropertyName": "API Key",
+            "Type": "Password"
+        },
+        {
+            "Id": 0,
+            "Mandatory": false,
+            "DefaultValue": null,
+            "Description": "User API key required to authenticate Doppel APIs",
+            "DisplayName": "User API Key",
+            "PropertyName": "User API Key",
+            "Type": "Password"
+        },
+        {
+            "Id": 0,
+            "Mandatory": false,
+            "DefaultValue": null,
+            "Description": "Organization code required to authenticate Doppel APIs for multi-tenant setup",
+            "DisplayName": "Organization Code",
+            "PropertyName": "Organization Code",
+            "Type": "String"
+        }
+    ],
+    "Certified": false,
+    "ProductionIdentifier": null,
+    "Type": "Response",
+    "Internal": false,
+    "Version": "5",
+    "DisplayName": "DoppelVision",
+    "Description": "Test Integration for DoppelVision Playbook",
+    "ImageBase64": "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",
+    "SvgIcon": "<svg width=\"400\" height=\"400\" viewBox=\"0 0 174 168\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M104.097 0v10.563c23.16 6.626 40.117 27.923 40.117 53.198s-16.957 46.592-40.117 53.197v49.281c39.141-7.441 68.725-41.819 68.725-83.125S143.238 7.441 104.097 0M29.179 102.489v-.01c0-25.285 16.957-46.593 40.117-53.198V.01C30.166 7.441.571 41.819.571 83.125s29.595 75.683 68.725 83.125v-10.563c-23.16-6.626-40.117-27.923-40.117-53.198\" fill=\"#e7ff91\"/>\n  <path d=\"m71.3 54.628-6.756 39.553 37.207 17.743 6.757-39.574z\" fill=\"#e7ff91\"/>\n</svg>\n",
+    "PythonVersion": "V3_11",
+    "Categories": [],
+    "Staging": false,
+    "IsCustom": false
+}
