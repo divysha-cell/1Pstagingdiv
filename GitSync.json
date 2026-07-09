@@ -12,7 +12,8 @@
         "Connector": {
             "Palo Alto Cortex XDR Connector": "ADDON",
             "Crowdstrike - Alerts Connector": "ADDON",
-            "Anomali Staxx - Indicators Connector": "ADDON"
+            "Anomali Staxx - Indicators Connector": "ADDON",
+            "Google Chronicle - Chronicle Alerts Connector": "ADDON"
         },
         "Job": {
             "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/MicrosoftTeams/jobs/65/jobInstances/23": "addon",
