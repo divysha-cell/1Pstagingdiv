@@ -13,7 +13,9 @@
             "Anomali Staxx - Indicators Connector": "ADDON"
         },
         "Job": {
-            "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/MicrosoftTeams/jobs/65/jobInstances/23": "addon"
+            "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/MicrosoftTeams/jobs/65/jobInstances/23": "addon",
+            "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/MicrosoftGraphMailDelegated/jobs/64/jobInstances/22": "addon",
+            "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/GoogleChronicle/jobs/1/jobInstances/20": "addon"
         },
         "Block": {
             "New Block": "This is the addon"
