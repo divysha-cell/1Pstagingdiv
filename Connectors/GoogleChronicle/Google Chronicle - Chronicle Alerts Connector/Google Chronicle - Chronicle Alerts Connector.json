@@ -38,17 +38,6 @@
             "modificationTimeUnixTimeInMs": 0
         },
         {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "API root of the Chronicle instance.",
-            "displayName": "API Root",
-            "value": "https://backstory.googleapis.com",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
             "mandatory": false,
             "advanced": false,
             "type": "Password",
@@ -168,6 +157,17 @@
             "value": "false",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "API root of the Chronicle instance.",
+            "displayName": "API Root",
+            "value": "https://backstory.googleapis.com",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
         }
     ],
     "status": 1,
@@ -178,6 +178,11 @@
     "description": "Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.",
     "intervalSeconds": 610,
     "version": 1,
+    "allowList": [
+        "warqw",
+        "24243",
+        "5325sdfsd!@#$%^&*"
+    ],
     "productFieldName": "alert_type",
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
@@ -205,17 +210,6 @@
             "modificationTimeUnixTimeInMs": 0
         },
         {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "API root of the Chronicle instance.",
-            "displayName": "API Root",
-            "value": "https://backstory.googleapis.com",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
             "mandatory": false,
             "advanced": false,
             "type": "Password",
@@ -333,6 +327,17 @@
             "description": "If enabled, the connector will fail if any filter configured in the Dynamic List is invalid. If disabled, invalid filters will be ignored completely and warnings will be logged.",
             "displayName": "Validate Dynamic List Entries",
             "value": "false",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "API root of the Chronicle instance.",
+            "displayName": "API Root",
+            "value": "https://backstory.googleapis.com",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         }
