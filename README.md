@@ -137,7 +137,7 @@
 |----|-----------|------------|
 |Anomali Staxx - Indicators Connector|Pull indicators from Anomali Staxx|False|
 |Crowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|False|
-|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
+|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|False|
 |Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
 
 
@@ -147,6 +147,13 @@
 |Crowdstrike Falcon Containment|This block performs containment on endpoints by targeting case-related IPs and hostnames to prevent further compromise. A boolean input controls manual or automatic execution. In automatic mode, the Upload IOCs and Isolate Endpoint flags determine which actions run. It returns true if successful, false on failure, or empty if no action is taken.|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |playbook with block and widget||
+
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|Copy of Test generic|Test generic|
+|manual-custom family001|manual-custom family001|
 
 
 ## Jobs
