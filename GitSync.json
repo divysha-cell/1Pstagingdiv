@@ -2,7 +2,9 @@
     "system_version": "6.999.9999.2237",
     "readme_addons": {
         "Integration": {},
-        "Mappings": {},
+        "Mappings": {
+            "GoogleChronicle": "Addon "
+        },
         "Visual Family": {},
         "Playbook": {
             "playbook with block and widget": "This is the addon"
