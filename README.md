@@ -135,10 +135,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|Anomali Staxx - Indicators Connector|Pull indicators from Anomali Staxx|False|
-|Crowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|False|
-|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|False|
-|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
+|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
 
 
 ## Playbooks
@@ -146,13 +143,6 @@
 |----|-----------|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |playbook with block and widget||
-
-
-## Visual Families
-|Name|Description|
-|----|-----------|
-|Copy of Test generic|Test generic|
-|manual-custom family001|manual-custom family001|
 
 
 ## Jobs
