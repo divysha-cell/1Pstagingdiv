@@ -34,7 +34,7 @@
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
             "displayName": "FaviconBase64",
             "type": 2,
-            "value": ""
+            "value": "False"
         },
         {
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
@@ -85,7 +85,7 @@
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
             "displayName": "FaviconBase64",
             "type": 2,
-            "value": ""
+            "value": "False"
         },
         {
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
@@ -135,7 +135,7 @@
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/FaviconBase64",
             "displayName": "FaviconBase64",
             "type": 2,
-            "value": ""
+            "value": "False"
         },
         {
             "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/moduleSettings/CompanySetting/properties/CompanyLogo",
