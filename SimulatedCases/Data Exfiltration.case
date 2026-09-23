@@ -5,7 +5,7 @@
             "events": [
                 {
                     "_fields": {
-                        "baseEventIds": [],
+                        "baseEventIds": "[]",
                         "parentEventId": -1,
                         "deviceEventClassId": "Data Exfiltration",
                         "deviceProduct": "DLP_Product"
