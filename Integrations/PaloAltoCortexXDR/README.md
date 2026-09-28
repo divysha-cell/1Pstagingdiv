@@ -16,144 +16,59 @@ Python Version - V3_11
 #### Dependencies
 | |
 |-|
-|TIPCommon-2.2.22-py2.py3-none-any.whl|
-|google_api_python_client-2.187.0-py3-none-any.whl|
-|typing_extensions-4.15.0-py3-none-any.whl|
-|google_auth_httplib2-0.2.1-py3-none-any.whl|
-|cffi-2.0.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl|
-|protobuf-6.33.2-cp39-abi3-manylinux2014_x86_64.whl|
-|httpcore-1.0.9-py3-none-any.whl|
 |google_auth-2.43.0-py2.py3-none-any.whl|
-|httpx-0.28.1-py3-none-any.whl|
-|uritemplate-4.2.0-py3-none-any.whl|
-|pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
-|proto_plus-1.26.1-py3-none-any.whl|
-|arrow-1.3.0-py3-none-any.whl|
-|certifi-2025.11.12-py3-none-any.whl|
-|pyparsing-3.2.5-py3-none-any.whl|
-|httplib2-0.31.0-py3-none-any.whl|
-|six-1.16.0-py2.py3-none-any.whl|
-|google_api_core-2.28.1-py3-none-any.whl|
-|cachetools-6.2.2-py3-none-any.whl|
-|pyopenssl-25.3.0-py3-none-any.whl|
-|sniffio-1.3.1-py3-none-any.whl|
-|pycparser-2.23-py3-none-any.whl|
-|types_python_dateutil-2.9.0.20240316-py3-none-any.whl|
-|requests-2.32.5-py3-none-any.whl|
-|anyio-4.12.0-py3-none-any.whl|
-|urllib3-2.6.0-py3-none-any.whl|
-|requests_toolbelt-1.0.0-py2.py3-none-any.whl|
-|python2_secrets-1.0.5-py2.py3-none-any.whl|
-|cryptography-46.0.3-cp311-abi3-manylinux_2_34_x86_64.whl|
-|EnvironmentCommon-1.0.2-py2.py3-none-any.whl|
-|chardet-5.2.0-py3-none-any.whl|
-|pyasn1_modules-0.4.2-py3-none-any.whl|
-|rsa-4.9.1-py3-none-any.whl|
-|charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
-|googleapis_common_protos-1.72.0-py3-none-any.whl|
-|pyasn1-0.6.1-py3-none-any.whl|
-|idna-3.11-py3-none-any.whl|
 |python_dateutil-2.9.0.post0-py2.py3-none-any.whl|
-|pytz-2024.1-py2.py3-none-any.whl|
+|httpcore-1.0.9-py3-none-any.whl|
+|chardet-5.2.0-py3-none-any.whl|
+|idna-3.11-py3-none-any.whl|
+|google_auth_httplib2-0.2.1-py3-none-any.whl|
+|requests-2.32.5-py3-none-any.whl|
 |h11-0.16.0-py3-none-any.whl|
+|protobuf-6.33.2-cp39-abi3-manylinux2014_x86_64.whl|
+|six-1.16.0-py2.py3-none-any.whl|
+|rsa-4.9.1-py3-none-any.whl|
+|requests_toolbelt-1.0.0-py2.py3-none-any.whl|
+|arrow-1.3.0-py3-none-any.whl|
+|cachetools-6.2.2-py3-none-any.whl|
+|urllib3-2.6.0-py3-none-any.whl|
+|types_python_dateutil-2.9.0.20240316-py3-none-any.whl|
+|pytz-2024.1-py2.py3-none-any.whl|
+|anyio-4.12.0-py3-none-any.whl|
+|pyasn1_modules-0.4.2-py3-none-any.whl|
+|TIPCommon-2.2.22-py2.py3-none-any.whl|
+|pyasn1-0.6.1-py3-none-any.whl|
+|pyopenssl-25.3.0-py3-none-any.whl|
+|pyparsing-3.2.5-py3-none-any.whl|
+|cryptography-46.0.3-cp311-abi3-manylinux_2_34_x86_64.whl|
+|httplib2-0.31.0-py3-none-any.whl|
+|uritemplate-4.2.0-py3-none-any.whl|
+|python2_secrets-1.0.5-py2.py3-none-any.whl|
+|certifi-2025.11.12-py3-none-any.whl|
+|google_api_python_client-2.187.0-py3-none-any.whl|
+|pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
+|httpx-0.28.1-py3-none-any.whl|
+|google_api_core-2.28.1-py3-none-any.whl|
+|proto_plus-1.26.1-py3-none-any.whl|
+|googleapis_common_protos-1.72.0-py3-none-any.whl|
+|charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
+|EnvironmentCommon-1.0.2-py2.py3-none-any.whl|
+|cffi-2.0.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl|
+|pycparser-2.23-py3-none-any.whl|
+|typing_extensions-4.15.0-py3-none-any.whl|
+|sniffio-1.3.1-py3-none-any.whl|
 
 
 ## Actions
-#### Add Hashes to Block List
-The action will add files which do not exist in the allow or block lists to a block list. Note - only SH256 format  for file hashes is supported.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Comment|Provide additional comment that represents additional information regarding the action.|False|String||
-
-
-
-#### Get Endpoint Agent Report
-Get the agent report for an endpoint.
-Timeout - 600 Seconds
-
-
-
-##### JSON Results
-```json
-
-```
-
-
-
-#### Isolate Endpoint
-Isolate an endpoint.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Agent ID|A comma-separated list of agent IDs to isolate. This parameter works in conjunction with the provided entities.|False|String||
-
-
-
-#### Get Incident Details
-Use “Get Incident Details” action to fetch information about the incident in Palo Alto XDR.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Incident ID|ID of the incident that needs to be returned.|True|String||
-|Lowest Alert Severity|Lowest severity for the alert to be returned.|False|List|High|
-|Max Alerts To Return|How many alerts to return for the query. Default: 50. Maximum: 1000.|False|String|50|
-
-
-
-##### JSON Results
-```json
-{"incident_id": "14000", "is_blocked": false, "incident_name": null, "creation_time": 1756265930000, "modification_time": 1756265938000, "detection_time": null, "status": "new", "severity": "medium", "description": "'PHP XDebug Session Detection' generated by TEST NGFW", "assigned_user_mail": null, "assigned_user_pretty_name": null, "alert_count": 1, "low_severity_alert_count": 0, "med_severity_alert_count": 1, "high_severity_alert_count": 0, "critical_severity_alert_count": 0, "user_count": 0, "host_count": 0, "notes": null, "resolve_comment": null, "resolved_timestamp": null, "manual_severity": null, "manual_description": null, "xdr_url": "https://xyz.com/incident-view?caseId=146408", "starred": true, "starred_manually": false, "hosts": null, "users": [], "incident_sources": ["TEST NGFW"], "rule_based_score": null, "predicted_score": 40, "manual_score": null, "aggregated_score": 40, "wildfire_hits": 0, "alerts_grouping_status": "Enabled", "mitre_tactics_ids_and_names": null, "mitre_techniques_ids_and_names": null, "alert_categories": ["Vulnerability"], "original_tags": ["DS:TESTW/NGFW"], "tags": ["DS:TESTW/NGFW"], "network_artifacts": {"total_count": 1, "data": [{"type": "IP", "alert_count": 1, "is_manual": false, "network_domain": null, "network_remote_ip": "0.0.0.0", "network_remote_port": 500, "network_country": "JP"}]}, "file_artifacts": {"total_count": 0, "data": []}, "alerts": [{"external_id": "7540915192461269271", "severity": "medium", "matching_status": "UNMATCHABLE", "end_match_attempt_ts": null, "local_insert_ts": 1756265929231, "last_modified_ts": null, "bioc_indicator": null, "matching_service_rule_id": null, "attempt_counter": 0, "bioc_category_enum_key": null, "case_id": 146408, "is_whitelisted": false, "starred": true, "deduplicate_tokens": "00421ab2ab1a43d089b1f690f8b4e54a", "filter_rule_id": null, "mitre_technique_id_and_name": null, "mitre_tactic_id_and_name": null, "agent_version": null, "agent_ip_addresses_v6": null, "agent_device_domain": null, "agent_fqdn": null, "agent_os_type": "NO_HOST", "agent_os_sub_type": null, "agent_data_collection_status": null, "mac": null, "agent_is_vdi": null, "agent_install_type": "NA", "agent_host_boot_time": null, "event_sub_type": null, "module_id": null, "association_strength": 10, "dst_association_strength": 10, "story_id": "NTUyNjUyNTQ0NTY2Mjc0OTgzMg==", "event_id": "NTUyNjUyNTQ0NTY2Mjc0OTgzMg==", "event_type": "Network Connections", "event_timestamp": 1756265900000, "actor_process_instance_id": null, "actor_process_image_path": null, "actor_process_image_name": null, "actor_process_command_line": null, "actor_process_signature_status": "N/A", "actor_process_signature_vendor": null, "actor_process_image_sha256": null, "actor_process_image_md5": null, "actor_process_causality_id": null, "actor_causality_id": null, "actor_process_os_pid": null, "actor_thread_thread_id": null, "causality_actor_process_image_name": null, "causality_actor_process_command_line": null, "causality_actor_process_image_path": null, "causality_actor_process_signature_vendor": null, "causality_actor_process_signature_status": "N/A", "causality_actor_causality_id": null, "causality_actor_process_execution_time": null, "causality_actor_process_image_md5": null, "causality_actor_process_image_sha256": null, "action_file_path": null, "action_file_name": null, "action_file_md5": null, "action_file_sha256": null, "action_file_macro_sha256": null, "action_registry_data": null, "action_registry_key_name": null, "action_registry_value_name": null, "action_registry_full_key": null, "action_local_ip": "0.0.0.0", "action_local_ip_v6": null, "action_local_port": 41584, "action_remote_ip": "0.0.0.0", "action_remote_ip_v6": null, "action_remote_port": 443, "action_external_hostname": null, "action_country": "JP", "action_process_instance_id": null, "action_process_causality_id": null, "action_process_image_name": null, "action_process_image_sha256": null, "action_process_image_command_line": null, "action_process_signature_status": "N/A", "action_process_signature_vendor": null, "os_actor_effective_username": null, "os_actor_process_instance_id": null, "os_actor_process_image_path": null, "os_actor_process_image_name": null, "os_actor_process_command_line": null, "os_actor_process_signature_status": "N/A", "os_actor_process_signature_vendor": null, "os_actor_process_image_sha256": null, "os_actor_process_causality_id": null, "os_actor_causality_id": null, "os_actor_process_os_pid": null, "os_actor_thread_thread_id": null, "fw_app_id": "web-browsing", "fw_interface_from": "untrust", "fw_interface_to": "untrust", "fw_rule": "GPCS-allow-inbound-ssl-vpn-rule", "fw_rule_id": null, "fw_device_name": "GP cloud service", "fw_serial_number": "769BDC003BD04A4", "fw_url_domain": null, "fw_email_subject": null, "fw_email_sender": null, "fw_email_recipient": null, "fw_app_subcategory": "internet-utility", "fw_app_category": "general-internet", "fw_app_technology": "browser-based", "fw_vsys": "vsys1", "fw_xff": null, "fw_misc": "base64", "fw_is_phishing": "No", "dst_agent_id": "0.0.0.0", "dst_causality_actor_process_execution_time": null, "dns_query_name": null, "dst_action_external_hostname": null, "dst_action_country": "BG", "dst_action_external_port": null, "is_pcap": false, "contains_featured_host": "NO", "contains_featured_user": "NO", "contains_featured_ip": "NO", "image_name": null, "image_id": null, "container_id": null, "container_name": null, "namespace": null, "cluster_name": null, "referenced_resource": null, "operation_name": null, "identity_sub_type": null, "identity_type": null, "project": null, "cloud_provider": null, "resource_type": null, "resource_sub_type": null, "user_agent": null, "alert_type": "Unclassified", "resolution_status": "STATUS_010_NEW", "resolution_comment": null, "dynamic_fields": null, "tags": "DS:TESTW/NGFW", "malicious_urls": null, "alert_id": "310015", "detection_timestamp": 1756265900000, "name": "PHP XDebug Session Detection", "category": "Vulnerability", "endpoint_id": "0.0.0.0", "description": "base64", "host_ip": "0.0.0.0", "host_name": null, "source": "TEST NGFW", "action": "DETECTED_4", "action_pretty": "Detected (Raised An Alert)", "user_name": null, "events_length": 1, "original_tags": "DS:TESTW/NGFW"}]}
-```
-
-
-
-#### Unisolate Endpoint
-Unisolate an endpoint.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Agent ID|A comma-separated list of agent IDs to unisolate. This parameter works in conjunction with the provided entities.|False|String||
-
-
-
-#### Query
-Get data of a specific incident including alerts and key artifacts.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Incident ID|The ID of the incident for which you want to retrieve data.|True|String||
-
-
-
-##### JSON Results
-```json
-{"file_artifacts": {"total_count": 2, "data": [{"file_signature_status": "SIGNATURE_SIGNED", "is_process": "true", "is_malicious": "false", "is_manual": "false", "file_name": "cmd.exe", "file_signature_vendor_name": "Microsoft Corporation", "file_sha256": "6f88fb88ffb0f1d5465c2826e5b4f523598b1b8378377c8378ffebc171bad18b", "type": "HASH", "file_wildfire_verdict": "BENIGN", "alert_count": 1}, {"file_signature_status": "SIGNATURE_SIGNED", "is_process": "true", "is_malicious": "false", "is_manual": "false", "file_name": "WmiPrvSE.exe", "file_signature_vendor_name": "Microsoft Corporation", "file_sha256": "25dfb8168246e5d04dd6f124c95e4c4c4e8273503569acd5452205558d099871", "type": "HASH", "file_wildfire_verdict": "BENIGN", "alert_count": 1}]}, "incident": {"status": "new", "incident_id": "1645", "user_count": 1, "assigned_user_mail": "", "severity": "high", "resolve_comment": "", "assigned_user_pretty_name": "", "notes": "", "creation_time": 1564877575921, "alert_count": 1, "med_severity_alert_count": 0, "detection_time": "", "modification_time": 1564877575921, "manual_severity": "", "xdr_url": "https://ac997a94-5e93-40ea-82d9-6a615038620b.xdr.us.paloaltonetworks.com/incident-view/1645", "manual_description": "", "low_severity_alert_count": 0, "high_severity_alert_count": 1, "host_count": 1, "description": "WMI Lateral Movement generated by BIOC detected on host ILCSYS31 involving user ILLICIUM\\ibojer"}, "alerts": {"total_count": 1, "data": [{"action_pretty": "Detected", "description": "Process action type = execution AND name = cmd.exe Process name = wmiprvse.exe, cgo name = wmiprvse.exe", "host_ip": "10.0.50.31", "alert_id": "21631", "detection_timestamp": 1564877525123, "name": "WMI Lateral Movement", "category": "Lateral Movement", "severity": "high", "source": "BIOC", "host_name": "ILCSYS31", "action": "DETECTED", "user_name": "ILLICIUM\\ibojer"}]}, "network_artifacts": {"total_count": 0, "data": []}}
-```
-
-
-
-#### Update an Incident
-The ability to set a specific XDR incident as under investigation, assign to named users, etc.
+#### Resolve an Incident
+The ability to close XDR incidents with a close reason.
 Timeout - 600 Seconds
 
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Incident ID|The ID of the incident to be updated.|True|String||
-|Assigned User Name|The updated full name of the incident assignee.|False|String||
-|Severity|Administrator-defined severity|False|List|Select One|
-|Status|Updated incident status|False|List|Select One|
+|Status|Updated incident status|True|List|UNDER_INVESTIGATION|
+|Resolve Comment|Descriptive comment explaining the incident change.|False|String||
 
 
 
@@ -179,6 +94,108 @@ Timeout - 600 Seconds
 
 
 
+#### Get Incident Details
+Use “Get Incident Details” action to fetch information about the incident in Palo Alto XDR.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|ID of the incident that needs to be returned.|True|String||
+|Lowest Alert Severity|Lowest severity for the alert to be returned.|False|List|High|
+|Max Alerts To Return|How many alerts to return for the query. Default: 50. Maximum: 1000.|False|String|50|
+
+
+
+##### JSON Results
+```json
+{"incident_id": "14000", "is_blocked": false, "incident_name": null, "creation_time": 1756265930000, "modification_time": 1756265938000, "detection_time": null, "status": "new", "severity": "medium", "description": "'PHP XDebug Session Detection' generated by TEST NGFW", "assigned_user_mail": null, "assigned_user_pretty_name": null, "alert_count": 1, "low_severity_alert_count": 0, "med_severity_alert_count": 1, "high_severity_alert_count": 0, "critical_severity_alert_count": 0, "user_count": 0, "host_count": 0, "notes": null, "resolve_comment": null, "resolved_timestamp": null, "manual_severity": null, "manual_description": null, "xdr_url": "https://xyz.com/incident-view?caseId=146408", "starred": true, "starred_manually": false, "hosts": null, "users": [], "incident_sources": ["TEST NGFW"], "rule_based_score": null, "predicted_score": 40, "manual_score": null, "aggregated_score": 40, "wildfire_hits": 0, "alerts_grouping_status": "Enabled", "mitre_tactics_ids_and_names": null, "mitre_techniques_ids_and_names": null, "alert_categories": ["Vulnerability"], "original_tags": ["DS:TESTW/NGFW"], "tags": ["DS:TESTW/NGFW"], "network_artifacts": {"total_count": 1, "data": [{"type": "IP", "alert_count": 1, "is_manual": false, "network_domain": null, "network_remote_ip": "0.0.0.0", "network_remote_port": 500, "network_country": "JP"}]}, "file_artifacts": {"total_count": 0, "data": []}, "alerts": [{"external_id": "7540915192461269271", "severity": "medium", "matching_status": "UNMATCHABLE", "end_match_attempt_ts": null, "local_insert_ts": 1756265929231, "last_modified_ts": null, "bioc_indicator": null, "matching_service_rule_id": null, "attempt_counter": 0, "bioc_category_enum_key": null, "case_id": 146408, "is_whitelisted": false, "starred": true, "deduplicate_tokens": "00421ab2ab1a43d089b1f690f8b4e54a", "filter_rule_id": null, "mitre_technique_id_and_name": null, "mitre_tactic_id_and_name": null, "agent_version": null, "agent_ip_addresses_v6": null, "agent_device_domain": null, "agent_fqdn": null, "agent_os_type": "NO_HOST", "agent_os_sub_type": null, "agent_data_collection_status": null, "mac": null, "agent_is_vdi": null, "agent_install_type": "NA", "agent_host_boot_time": null, "event_sub_type": null, "module_id": null, "association_strength": 10, "dst_association_strength": 10, "story_id": "NTUyNjUyNTQ0NTY2Mjc0OTgzMg==", "event_id": "NTUyNjUyNTQ0NTY2Mjc0OTgzMg==", "event_type": "Network Connections", "event_timestamp": 1756265900000, "actor_process_instance_id": null, "actor_process_image_path": null, "actor_process_image_name": null, "actor_process_command_line": null, "actor_process_signature_status": "N/A", "actor_process_signature_vendor": null, "actor_process_image_sha256": null, "actor_process_image_md5": null, "actor_process_causality_id": null, "actor_causality_id": null, "actor_process_os_pid": null, "actor_thread_thread_id": null, "causality_actor_process_image_name": null, "causality_actor_process_command_line": null, "causality_actor_process_image_path": null, "causality_actor_process_signature_vendor": null, "causality_actor_process_signature_status": "N/A", "causality_actor_causality_id": null, "causality_actor_process_execution_time": null, "causality_actor_process_image_md5": null, "causality_actor_process_image_sha256": null, "action_file_path": null, "action_file_name": null, "action_file_md5": null, "action_file_sha256": null, "action_file_macro_sha256": null, "action_registry_data": null, "action_registry_key_name": null, "action_registry_value_name": null, "action_registry_full_key": null, "action_local_ip": "0.0.0.0", "action_local_ip_v6": null, "action_local_port": 41584, "action_remote_ip": "0.0.0.0", "action_remote_ip_v6": null, "action_remote_port": 443, "action_external_hostname": null, "action_country": "JP", "action_process_instance_id": null, "action_process_causality_id": null, "action_process_image_name": null, "action_process_image_sha256": null, "action_process_image_command_line": null, "action_process_signature_status": "N/A", "action_process_signature_vendor": null, "os_actor_effective_username": null, "os_actor_process_instance_id": null, "os_actor_process_image_path": null, "os_actor_process_image_name": null, "os_actor_process_command_line": null, "os_actor_process_signature_status": "N/A", "os_actor_process_signature_vendor": null, "os_actor_process_image_sha256": null, "os_actor_process_causality_id": null, "os_actor_causality_id": null, "os_actor_process_os_pid": null, "os_actor_thread_thread_id": null, "fw_app_id": "web-browsing", "fw_interface_from": "untrust", "fw_interface_to": "untrust", "fw_rule": "GPCS-allow-inbound-ssl-vpn-rule", "fw_rule_id": null, "fw_device_name": "GP cloud service", "fw_serial_number": "769BDC003BD04A4", "fw_url_domain": null, "fw_email_subject": null, "fw_email_sender": null, "fw_email_recipient": null, "fw_app_subcategory": "internet-utility", "fw_app_category": "general-internet", "fw_app_technology": "browser-based", "fw_vsys": "vsys1", "fw_xff": null, "fw_misc": "base64", "fw_is_phishing": "No", "dst_agent_id": "0.0.0.0", "dst_causality_actor_process_execution_time": null, "dns_query_name": null, "dst_action_external_hostname": null, "dst_action_country": "BG", "dst_action_external_port": null, "is_pcap": false, "contains_featured_host": "NO", "contains_featured_user": "NO", "contains_featured_ip": "NO", "image_name": null, "image_id": null, "container_id": null, "container_name": null, "namespace": null, "cluster_name": null, "referenced_resource": null, "operation_name": null, "identity_sub_type": null, "identity_type": null, "project": null, "cloud_provider": null, "resource_type": null, "resource_sub_type": null, "user_agent": null, "alert_type": "Unclassified", "resolution_status": "STATUS_010_NEW", "resolution_comment": null, "dynamic_fields": null, "tags": "DS:TESTW/NGFW", "malicious_urls": null, "alert_id": "310015", "detection_timestamp": 1756265900000, "name": "PHP XDebug Session Detection", "category": "Vulnerability", "endpoint_id": "0.0.0.0", "description": "base64", "host_ip": "0.0.0.0", "host_name": null, "source": "TEST NGFW", "action": "DETECTED_4", "action_pretty": "Detected (Raised An Alert)", "user_name": null, "events_length": 1, "original_tags": "DS:TESTW/NGFW"}]}
+```
+
+
+
+#### Isolate Endpoint
+Isolate an endpoint.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Agent ID|A comma-separated list of agent IDs to isolate. This parameter works in conjunction with the provided entities.|False|String||
+
+
+
+#### Download File
+Use the “Download File” action to download files from endpoints in Palo Alto XDR. Supported Entities: IP Address, Hostname. Note: This action executes asynchronously, requiring you to adjust the script timeout value in the Google SecOps IDE.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|The ID of the incident to associate the download activity with, allowing the results to appear in the incident timeline.|False|String||
+|Agent ID|A comma-separated list of agent IDs to download the files from. This parameter works in conjunction with the provided entities|False|String||
+|File Paths|A comma-separated list of file paths to download.|True|String||
+|Download Folder Path|Name of the folder, where the file needs to be stored.|True|String|/tmp|
+|Overwrite|If selected, the action overwrites the file with the same name.|False|Boolean|False|
+|Unzip File|If selected, the action will unzip the downloaded file and save it in its original format. If unselected, the file will be saved as a zip archive.|False|Boolean|False|
+
+
+
+##### JSON Results
+```json
+[{"Entity": "10.10.10.10", "EntityResult": {"download_file_path": ["x.x.x.x"], "errored_file_paths": ["x.x.x.x"], "errors": {"x.x.x.x": "error details"}}}]
+```
+
+
+
+#### Get Endpoint Agent Report
+Get the agent report for an endpoint.
+Timeout - 600 Seconds
+
+
+
+##### JSON Results
+```json
+
+```
+
+
+
+#### Ping
+Test connectivity to Palo Alto Cortex XDR
+Timeout - 600 Seconds
+
+
+
+#### Add Hashes to Block List
+The action will add files which do not exist in the allow or block lists to a block list. Note - only SH256 format  for file hashes is supported.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Comment|Provide additional comment that represents additional information regarding the action.|False|String||
+
+
+
+#### Query
+Get data of a specific incident including alerts and key artifacts.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|The ID of the incident for which you want to retrieve data.|True|String||
+
+
+
+##### JSON Results
+```json
+{"file_artifacts": {"total_count": 2, "data": [{"file_signature_status": "SIGNATURE_SIGNED", "is_process": "true", "is_malicious": "false", "is_manual": "false", "file_name": "cmd.exe", "file_signature_vendor_name": "Microsoft Corporation", "file_sha256": "6f88fb88ffb0f1d5465c2826e5b4f523598b1b8378377c8378ffebc171bad18b", "type": "HASH", "file_wildfire_verdict": "BENIGN", "alert_count": 1}, {"file_signature_status": "SIGNATURE_SIGNED", "is_process": "true", "is_malicious": "false", "is_manual": "false", "file_name": "WmiPrvSE.exe", "file_signature_vendor_name": "Microsoft Corporation", "file_sha256": "25dfb8168246e5d04dd6f124c95e4c4c4e8273503569acd5452205558d099871", "type": "HASH", "file_wildfire_verdict": "BENIGN", "alert_count": 1}]}, "incident": {"status": "new", "incident_id": "1645", "user_count": 1, "assigned_user_mail": "", "severity": "high", "resolve_comment": "", "assigned_user_pretty_name": "", "notes": "", "creation_time": 1564877575921, "alert_count": 1, "med_severity_alert_count": 0, "detection_time": "", "modification_time": 1564877575921, "manual_severity": "", "xdr_url": "https://ac997a94-5e93-40ea-82d9-6a615038620b.xdr.us.paloaltonetworks.com/incident-view/1645", "manual_description": "", "low_severity_alert_count": 0, "high_severity_alert_count": 1, "host_count": 1, "description": "WMI Lateral Movement generated by BIOC detected on host ILCSYS31 involving user ILLICIUM\\ibojer"}, "alerts": {"total_count": 1, "data": [{"action_pretty": "Detected", "description": "Process action type = execution AND name = cmd.exe Process name = wmiprvse.exe, cgo name = wmiprvse.exe", "host_ip": "10.0.50.31", "alert_id": "21631", "detection_timestamp": 1564877525123, "name": "WMI Lateral Movement", "category": "Lateral Movement", "severity": "high", "source": "BIOC", "host_name": "ILCSYS31", "action": "DETECTED", "user_name": "ILLICIUM\\ibojer"}]}, "network_artifacts": {"total_count": 0, "data": []}}
+```
+
+
+
 #### Scan Endpoint
 Use the "Scan Endpoint" action to scan endpoints in Palo Alto XDR. Supported Entities: IP Address, Hostname. Note: This action executes asynchronously, requiring you to adjust the script timeout value in the Google SecOps IDE.
 Timeout - 600 Seconds
@@ -198,29 +215,28 @@ Timeout - 600 Seconds
 
 
 
-#### Enrich Entities
-Enrich Siemplify Host and IP entities based on the information from the Palo Alto Cortex XDR.
+#### Unisolate Endpoint
+Unisolate an endpoint.
 Timeout - 600 Seconds
 
 
-
-##### JSON Results
-```json
-[{"EntityResult": {"domain": "st2.local", "endpoint_name": "ST2-PC-1-14", "endpoint_type": "AGENT_TYPE_SERVER", "ip": null, "endpoint_version": "6.1.0.9915", "install_date": 1568103207592, "installation_package": "papi-test", "is_isolated": null, "group_name": null, "alias": "", "active_directory": null, "endpoint_status": "DISCONNECTED", "endpoint_id": "4ce98b4d8d2b45a9a1d82dc71f0d1304", "content_version": "", "os_type": "AGENT_OS_WINDOWS", "last_seen": 1568103207592, "first_seen": 1568103207591, "users": ["TEST USER"]}, "Entity": "PC01"}]
-```
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Agent ID|A comma-separated list of agent IDs to unisolate. This parameter works in conjunction with the provided entities.|False|String||
 
 
 
-#### Resolve an Incident
-The ability to close XDR incidents with a close reason.
+#### Update an Incident
+The ability to set a specific XDR incident as under investigation, assign to named users, etc.
 Timeout - 600 Seconds
 
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Incident ID|The ID of the incident to be updated.|True|String||
-|Status|Updated incident status|True|List|UNDER_INVESTIGATION|
-|Resolve Comment|Descriptive comment explaining the incident change.|False|String||
+|Assigned User Name|The updated full name of the incident assignee.|False|String||
+|Severity|Administrator-defined severity|False|List|Select One|
+|Status|Updated incident status|False|List|Select One|
 
 
 
@@ -236,9 +252,16 @@ Timeout - 600 Seconds
 
 
 
-#### Ping
-Test connectivity to Palo Alto Cortex XDR
+#### Enrich Entities
+Enrich Siemplify Host and IP entities based on the information from the Palo Alto Cortex XDR.
 Timeout - 600 Seconds
+
+
+
+##### JSON Results
+```json
+[{"EntityResult": {"domain": "st2.local", "endpoint_name": "ST2-PC-1-14", "endpoint_type": "AGENT_TYPE_SERVER", "ip": null, "endpoint_version": "6.1.0.9915", "install_date": 1568103207592, "installation_package": "papi-test", "is_isolated": null, "group_name": null, "alias": "", "active_directory": null, "endpoint_status": "DISCONNECTED", "endpoint_id": "4ce98b4d8d2b45a9a1d82dc71f0d1304", "content_version": "", "os_type": "AGENT_OS_WINDOWS", "last_seen": 1568103207592, "first_seen": 1568103207591, "users": ["TEST USER"]}, "Entity": "PC01"}]
+```
 
 
 

@@ -1,54 +1,28 @@
 [
     {
-        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/10",
+        "name": "projects/spsstg-j2nis/locations/us/instances/fa12d79f-1170-4476-8f19-7939caa290d1/environments/3",
         "id": 0,
         "system": false,
-        "displayName": "!@#$%^&*(ERTYUIOCVBNM$%^&*34567",
-        "description": "!@#$%^&*(ERTYUIOCVBNM$%^&*34567",
-        "contact": "!@#$%^&*(ERTYUIOCVBNM$%^&*34567",
-        "contactEmails": "t11@gmail.com",
-        "contactPhone": "234567",
+        "displayName": "stage1penvironment",
+        "description": "stage1penvironment",
+        "contact": "stage1penvironment",
+        "contactEmails": "stage1penvironment@test.com",
+        "contactPhone": "1234567890",
         "retentionDuration": 3,
-        "dynamicParameters": [],
-        "aliasesJson": "[\"test\"]",
-        "dataAccessScopesJson": "[]",
-        "instanceUri": "",
-        "weight": 1
-    },
-    {
-        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/9",
-        "id": 0,
-        "system": false,
-        "displayName": "testenv001",
-        "description": "testenv001",
-        "contact": "testenv001",
-        "contactEmails": "testenv001@test.com",
-        "contactPhone": "234567",
-        "retentionDuration": 3,
-        "dynamicParameters": [],
-        "aliasesJson": "[\"test45\"]",
-        "dataAccessScopesJson": "[]",
-        "instanceUri": "",
-        "weight": 1
-    },
-    {
-        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/8",
-        "id": 0,
-        "system": false,
-        "displayName": "ASDFGHJ",
-        "description": "ASDFGHJ",
-        "contact": "ASDFGHJ",
-        "contactEmails": "ASDFGHJ@gmail.com",
-        "contactPhone": "23456789",
-        "retentionDuration": 3,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "value": "Qwerty",
+                "dynamicParameterId": 1,
+                "environmentId": 3
+            }
+        ],
         "aliasesJson": "[]",
         "dataAccessScopesJson": "[]",
         "instanceUri": "",
         "weight": 1
     },
     {
-        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/1",
+        "name": "projects/spsstg-j2nis/locations/us/instances/fa12d79f-1170-4476-8f19-7939caa290d1/environments/1",
         "id": 0,
         "system": true,
         "displayName": "Default Environment",
@@ -57,7 +31,13 @@
         "contactEmails": "example@example.com",
         "contactPhone": "0000000000",
         "retentionDuration": 3,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "value": "Qwerty",
+                "dynamicParameterId": 1,
+                "environmentId": 1
+            }
+        ],
         "aliasesJson": "[]",
         "dataAccessScopesJson": "[]",
         "instanceUri": "",
