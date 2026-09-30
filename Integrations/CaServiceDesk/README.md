@@ -16,29 +16,73 @@ Python Version - V3_11
 #### Dependencies
 | |
 |-|
+|arrow-1.4.0-py3-none-any.whl|
+|idna-3.13-py3-none-any.whl|
+|lxml-6.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl|
+|python_dateutil-2.9.0.post0-py2.py3-none-any.whl|
+|requests-2.33.1-py3-none-any.whl|
 |six-1.17.0-py2.py3-none-any.whl|
 |attrs-26.1.0-py3-none-any.whl|
-|defusedxml-0.7.1-py2.py3-none-any.whl|
-|lxml-6.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl|
-|certifi-2026.4.22-py3-none-any.whl|
-|charset_normalizer-3.4.7-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
-|tzdata-2026.2-py2.py3-none-any.whl|
-|requests_file-3.0.1-py2.py3-none-any.whl|
-|pytz-2026.1.post1-py2.py3-none-any.whl|
-|TIPCommon-1.0.12-py2.py3-none-any.whl|
-|chardet-7.4.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
 |requests_toolbelt-1.0.0-py2.py3-none-any.whl|
-|urllib3-2.6.3-py3-none-any.whl|
-|zeep-4.2.1-py3-none-any.whl|
-|requests-2.33.1-py3-none-any.whl|
-|idna-3.13-py3-none-any.whl|
+|pytz-2026.1.post1-py2.py3-none-any.whl|
 |platformdirs-4.9.6-py3-none-any.whl|
-|python_dateutil-2.9.0.post0-py2.py3-none-any.whl|
-|arrow-1.4.0-py3-none-any.whl|
+|defusedxml-0.7.1-py2.py3-none-any.whl|
+|chardet-7.4.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
+|zeep-4.2.1-py3-none-any.whl|
 |isodate-0.7.2-py3-none-any.whl|
+|certifi-2026.4.22-py3-none-any.whl|
+|requests_file-3.0.1-py2.py3-none-any.whl|
+|urllib3-2.6.3-py3-none-any.whl|
+|tzdata-2026.2-py2.py3-none-any.whl|
+|TIPCommon-1.0.12-py2.py3-none-any.whl|
+|charset_normalizer-3.4.7-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl|
 
 
 ## Actions
+#### Add Comment
+Add comment to a CA ServiceDesk incident
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Ticket ID|Incident's ref num. e.g. 338|True|String||
+|Comment|Comment to add to an incident|True|String||
+
+
+
+#### Sync Ticket History
+Fetch and attach the entire ticket history to an alert
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Comment Type Field|Ticket type. e.g. type.sym|False|String||
+|Analyst Name Field|Analyst Name. e.g. analyst.combo_name|False|String||
+|TimeStamp Field|Time field e.g. time_stamap.|False|String||
+
+
+
+##### JSON Results
+```json
+[{"time_stamp": "1546944096", "analyst.combo_name": "Analyst", "type.sym": "Log Comment", "description": "Tests Comments."}]
+```
+
+
+
+#### Change Ticket Status
+Change CA Desk Manager ticket status
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Ticket ID|Incident number|True|String||
+|Status|Incident status to change. e.g. Closed|True|String||
+
+
+
 #### Search Tickets
 Search tickets in CA Desk Manager by field
 Timeout - 600 Seconds
@@ -70,6 +114,24 @@ Timeout - 600 Seconds
 |----|-----------|-----------|----|------------|
 |Ticket ID|Incident number|True|String||
 |Close Reason|description which can be used in the Close activity log.|True|String||
+
+
+
+#### Assign To Group
+Assign an incident to a particular group
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Ticket ID|Incident number|True|String||
+|Group|Group to assign the incident to|True|String||
+
+
+
+#### Ping
+Test Connectivity
+Timeout - 600 Seconds
 
 
 
@@ -108,18 +170,6 @@ Timeout - 600 Seconds
 
 
 
-#### Add Comment
-Add comment to a CA ServiceDesk incident
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Ticket ID|Incident's ref num. e.g. 338|True|String||
-|Comment|Comment to add to an incident|True|String||
-
-
-
 #### Assign Incident To User
 Assign an incident to a specific user
 Timeout - 600 Seconds
@@ -129,56 +179,6 @@ Timeout - 600 Seconds
 |----|-----------|-----------|----|------------|
 |Ticket ID|Incident number|True|String||
 |Username|Username to assign the incident to.|True|String||
-
-
-
-#### Sync Ticket History
-Fetch and attach the entire ticket history to an alert
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Comment Type Field|Ticket type. e.g. type.sym|False|String||
-|Analyst Name Field|Analyst Name. e.g. analyst.combo_name|False|String||
-|TimeStamp Field|Time field e.g. time_stamap.|False|String||
-
-
-
-##### JSON Results
-```json
-[{"time_stamp": "1546944096", "analyst.combo_name": "Analyst", "type.sym": "Log Comment", "description": "Tests Comments."}]
-```
-
-
-
-#### Change Ticket Status
-Change CA Desk Manager ticket status
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Ticket ID|Incident number|True|String||
-|Status|Incident status to change. e.g. Closed|True|String||
-
-
-
-#### Assign To Group
-Assign an incident to a particular group
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Ticket ID|Incident number|True|String||
-|Group|Group to assign the incident to|True|String||
-
-
-
-#### Ping
-Test Connectivity
-Timeout - 600 Seconds
 
 
 
@@ -208,11 +208,11 @@ Sync closure of the tickets at the CA Desk Manager with Siemplify cases closure.
 
 |Name|IsMandatory|Type|DefaultValue|
 |----|-----------|----|------------|
+|Group Field|True|String|group.combo_name|
 |API Root|True|String|http://x.x.x.x:<port>|
 |Username|True|String||
 |Password|True|String||
 |Group Filter|False|String|Test|
-|Group Field|True|String|group.combo_name|
 |Ticket Final Status|True|String|Closed|
 |Script Name|True|String|TEST CLOSE|
 
